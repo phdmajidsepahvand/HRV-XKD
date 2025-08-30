@@ -1,18 +1,16 @@
-##### \# HRV-XKD
-
-# 
+# HRV-XKD
 
 The official repository of \*\*HRV-XKD\*\*: Early Hypertension Detection via Temporal Drift Analysis in ECG-Derived HRV: A Cross-Window Attention-Based Knowledge Distillation Framework.
 
 # 
 
-##### \## 📚 Overview
+### Overview
 
 This project proposes an innovative approach to \*\*Early Hypertension Detection\*\* by analyzing the \*\*Temporal Drift\*\* in \*\*ECG-derived HRV\*\* signals. The model leverages a \*\*Cross-Window Attention-Based Knowledge Distillation Framework\*\* for accurate prediction of hypertension onset.
 
 # 
 
-\## 🚀 Features
+### Features
 
 \- \*\*Data Preprocessing\*\*: Data loading and preprocessing from the MIMIC-III database.
 
@@ -24,7 +22,7 @@ This project proposes an innovative approach to \*\*Early Hypertension Detection
 
 # 
 
-##### \## 🛠️ Requirements
+### Requirements
 
 The following libraries are required:
 
