@@ -6,11 +6,7 @@ The official repository of HRV-XKD: A Cross-Window Attention-Based Knowledge Dis
 
 ### Overview
 
-<p>
-
 This project proposes an innovative approach to Early Hypertension Detection by analyzing the Temporal Drift in ECG-derived HRV signals. The model leverages a Cross-Window Attention-Based Knowledge Distillation Framework for accurate prediction of hypertension onset. Our project integrates three main components: (1) RR interval extraction and HRV segmentation from raw ECG signals, (2) modeling temporal dependencies across HRV windows using a Cross-Window Attention mechanism to capture subtle drift dynamics, and (3) transferring learned knowledge into a lightweight student model via Knowledge Distillation to enable real-time deployment in wearable devices. The project was evaluated on the publicly available MIMIC-IV Waveform Database. Specifically, our student model achieved an AUC of 0.93 and F1-score of 0.89 while reducing model complexity by more than 65% compared to the teacher model. 
-
-</p>
 
 
 
