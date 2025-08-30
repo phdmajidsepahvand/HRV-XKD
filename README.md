@@ -10,6 +10,28 @@ This project proposes an innovative approach to Early Hypertension Detection by 
 
 # 
 
+### Data
+
+
+
+The data used in this project is obtained from the MIMIC-III Waveform Database. This database contains over 67,000 records of physiological signals, such as ECG, ABP, and PPG, collected from ICU patients.
+
+
+
+\- Data Source: \[MIMIC-III Waveform Database v1.0 on PhysioNet](https://physionet.org/content/mimic3wdb/1.0/)
+
+\- License: Open Database License v1.0
+
+
+
+For more information and to access the data, visit: \[MIMIC-III Waveform Database](https://physionet.org/content/mimic3wdb/1.0/)
+
+
+
+Please follow the instructions on the PhysioNet website to download the data.
+
+
+
 ### Features
 
 \- Data Preprocessing: Data loading and preprocessing from the MIMIC-III database.
