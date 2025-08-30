@@ -12,13 +12,10 @@ This project proposes an innovative approach to Early Hypertension Detection by 
 
 ### Features
 
-\- Data Preprocessing: Data loading and preprocessing from the MIMIC-III database.
-
-\- Modeling: Implementation of a Cross-Window Attention Model for classification.
-
-\- Knowledge Distillation: Using a teacher-student approach for enhanced performance.
-
-\- Evaluation: Metrics such as Accuracy and F1-Score to evaluate model performance.
+* Data Preprocessing: Data loading and preprocessing from the MIMIC-III database.
+* Modeling: Implementation of a Cross-Window Attention Model for classification.
+* Knowledge Distillation: Using a teacher-student approach for enhanced performance.
+* Evaluation: Metrics such as Accuracy and F1-Score to evaluate model performance.
 
 # 
 
@@ -46,21 +43,14 @@ Please follow the instructions on the PhysioNet website to download the data.
 
 The following libraries are required:
 
-\- Python >= 3.7
-
-\- torch
-
-\- scikit-learn
-
-\- pandas
-
-\- numpy
-
-\- tqdm
-
-\- pyyaml
-
-\- wfdb
+* Python >= 3.7
+* torch
+* scikit-learn
+* pandas
+* numpy
+* tqdm
+* pyyaml
+* wfdb
 
 # 
 
