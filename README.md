@@ -10,9 +10,19 @@ This project proposes an innovative approach to Early Hypertension Detection by 
 
 # 
 
-### Data
+### Features
 
+\- Data Preprocessing: Data loading and preprocessing from the MIMIC-III database.
 
+\- Modeling: Implementation of a Cross-Window Attention Model for classification.
+
+\- Knowledge Distillation: Using a teacher-student approach for enhanced performance.
+
+\- Evaluation: Metrics such as Accuracy and F1-Score to evaluate model performance.
+
+# 
+
+# Data
 
 The data used in this project is obtained from the MIMIC-III Waveform Database. This database contains over 67,000 records of physiological signals, such as ECG, ABP, and PPG, collected from ICU patients.
 
@@ -29,18 +39,6 @@ For more information and to access the data, visit: \[MIMIC-III Waveform Databas
 
 
 Please follow the instructions on the PhysioNet website to download the data.
-
-
-
-### Features
-
-\- Data Preprocessing: Data loading and preprocessing from the MIMIC-III database.
-
-\- Modeling: Implementation of a Cross-Window Attention Model for classification.
-
-\- Knowledge Distillation: Using a teacher-student approach for enhanced performance.
-
-\- Evaluation: Metrics such as Accuracy and F1-Score to evaluate model performance.
 
 # 
 
