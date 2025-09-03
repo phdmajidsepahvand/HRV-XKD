@@ -6,8 +6,15 @@ The official repository of HRV-XKD: A Cross-Window Attention-Based Knowledge Dis
 
 ### Overview
 
-This project proposes an innovative approach to Early Hypertension Detection by analyzing the Temporal Drift in ECG-derived HRV signals. The model leverages a Cross-Window Attention-Based Knowledge Distillation Framework for accurate prediction of hypertension onset. Our project integrates three main components: (1) RR interval extraction and HRV segmentation from raw ECG signals, (2) modeling temporal dependencies across HRV windows using a Cross-Window Attention mechanism to capture subtle drift dynamics, and (3) transferring learned knowledge into a lightweight student model via Knowledge Distillation to enable real-time deployment in wearable devices. The project was evaluated on the publicly available MIMIC-IV Waveform Database. Specifically, our student model achieved an AUC of 0.93 and F1-score of 0.89 while reducing model complexity by more than 65% compared to the teacher model.
+Early detection of hypertension is challenging due to the gradual and subtle nature of neurocardiac dysregulation. Traditional Heart Rate Variability (HRV)-based methods often rely on static, single-window analyses and fail to capture temporal dynamics across multiple windows.
 
+In this project, we propose HRV-XKD, a cross-window attention-based knowledge distillation framework designed to model gradual temporal drifts in HRV signals for accurate early hypertension detection. The framework was evaluated using two publicly available datasets: PPG-BP and MIMIC-IV Waveform. Raw biosignals were preprocessed to extract HRV features and segmented into overlapping windows to better capture temporal variations.
+
+The proposed approach employs a high-capacity teacher network to model temporal dependencies using multi-head cross-window attention, while transferring its learned knowledge into a lightweight student model through a hybrid loss function combining cross-entropy, temperature-scaled soft-target alignment, and feature mimicry. The resulting student model is optimized for real-time deployment on wearable devices.
+
+Experimental results demonstrate that HRV-XKD outperforms classical baselines and recent deep learning models, including ExHyptNet. On the MIMIC-IV dataset, the student model achieved an AUC of 0.93 and an F1-score of 0.89, while reducing model complexity by over 65% and improving inference speed by 3.2×. Comparable results on the PPG-BP dataset confirm the robustness and generalizability of the proposed framework.
+
+Overall, HRV-XKD provides an accurate, explainable, and computationally efficient solution for early hypertension screening, bridging the gap between high-performance AI and resource-constrained deployment in real-world healthcare applications.
 
 
 ### Features
